@@ -1,0 +1,12 @@
+{
+    "appenders": { 
+        "console": { "type": "console"},
+        "error": { "type": "dateFile", "filename": "./logs/data/error/error.log", "pattern": ".yyyy-MM-dd-hh", "compress": true },
+        "debug": { "type": "dateFile", "filename": "./logs/data/debug/debug.log", "pattern": ".yyyy-MM-dd-hh", "compress": true }
+    },
+    "categories": { 
+        "default": { "appenders": [ "console" ], "level": "all" },
+        "error":{"appenders": [ "error","console" ], "level": "error"},
+        "debug":{"appenders": [ "debug","console" ], "level": "debug"} 
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "express + mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "lcc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "log4js": "^3.0.5",
+    "mongoose": "^5.2.14"
+  }
+}

@@ -1,0 +1,4 @@
+[2018-10-18T20:51:34.509] [DEBUG] debug - MongoDB连接成功！！
+[2018-10-18T20:51:34.511] [DEBUG] debug - [mongoose log] Successfully connected to: mongodb://127.0.0.1:27017/myTest
+[2018-10-18T20:55:20.643] [DEBUG] debug - MongoDB连接成功！！
+[2018-10-18T20:55:20.645] [DEBUG] debug - [mongoose log] Successfully connected to: mongodb://127.0.0.1:27017/myTest
